@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container"> 
+                <div class="menu">
+                    <img src="img/logo.png" alt="" class="menu__logo">
+                    <div class="menu__text">Наши услуги</div>
+                    <div class="menu__text">Статьи</div>
+                    <div class="menu__text">Информация</div>
+                    <div class="menu__text">О нас</div>
+                    <div class="menu__text">Контакты</div>
+                    <a href="#"><div class="menu__request">Отправить заявку</div></a>
+                    <div class="menu__lng">РУС</div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo__wrapper">
+                <div class="promo__title">Проектирование и установка систем видеонаблюдения</div>
+                <div class="promo__subtitle">Защитите свой бизнес от неожиданных сбоев!</div>
+                <a href="#"><div class="promo__know">Узнать больше</div></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="possible">
+        <div class="possible__bg"></div>
+        <div class="container">
+            <div class="possible__title">Возможности</div>
+            <div class="possible__wrapper">
+                <div class="possible__dscr">
+                    <div class="possible__dscr-img"></div>
+                    <div class="possible__dscr-border">
+                        <div class="possible__dscr-rectangle">
+                            <img src="img/monitor.png" alt="">
+                        </div>
+                    </div>
+                    <div class="possible__dscr-title">Видеонаблюдение через интернет</div>
+                    <div class="possible__dscr-text">Для онлайн доступа к камерам достаточно иметь доступ к Интернету на объекте. Подключившись удаленно к системе видеонаблюдения можно просматривать видео и запись в режиме времени.</div>
+                </div>
+
+                <div class="possible__dscr">
+                    <div class="possible__dscr-img possible__dscr-img2"></div>
+                    <div class="possible__dscr-border">
+                        <div class="possible__dscr-rectangle">
+                            <img src="img/microphone.png" alt="">
+                        </div>
+                    </div>
+                    <div class="possible__dscr-title">Запись звука</div>
+                    <div class="possible__dscr-text">Наличие микрофона поможет проанализировать качество обслуживания персонала, прослушать разговоры няни и репетиторов с детьми, детально разобраться в случае возникновения конфликта.</div>
+                </div>
+
+                <div class="possible__dscr">
+                    <div class="possible__dscr-img possible__dscr-img3"></div>
+                    <div class="possible__dscr-border">
+                        <div class="possible__dscr-rectangle">
+                            <img src="img/motion-sensor.png" alt="">
+                        </div>
+                    </div>
+                    <div class="possible__dscr-title">Детектор движения</div>
+                    <div class="possible__dscr-text">Видеокамеры способны определять движение объектов. Это важно, когда нужно настроить запись только при обнаружении движения или обозначить границы, при пересечении которых система оповестит об этом.</div>
+                </div>
+
+                <div class="possible__dscr">
+                    <div class="possible__dscr-img possible__dscr-img4"></div>
+                    <div class="possible__dscr-border">
+                        <div class="possible__dscr-rectangle">
+                            <img src="img/video-files.png" alt="">
+                        </div>
+                    </div>
+                    <div class="possible__dscr-title">Просмотр архивных видеозаписей</div>
+                    <div class="possible__dscr-text">Видео с каждой камеры записывается отдельно. Зная приблизительно, когда и где произошло интересующее Вас событие, без труда можно найти важный фрагмент и сохранить его на жесткий диск компьютера или на флеш-карту.</div>
+                </div>
+
+                <div class="possible__dscr">
+                    <div class="possible__dscr-img possible__dscr-img5"></div>
+                    <div class="possible__dscr-border">
+                        <div class="possible__dscr-rectangle">
+                            <img src="img/brightness.png" alt="">
+                        </div>
+                    </div>
+                    <div class="possible__dscr-title">Запись видео в полной темноте</div>
+                    <div class="possible__dscr-text">При снижении освещенности в помещении или на улице видеокамеры переходят в ночной режим съемки. Даже при съемке в темноте качество видео остается на очень высоком уровне.</div>
+                </div>
+
+                <div class="possible__dscr">
+                    <div class="possible__dscr-img possible__dscr-img6"></div>
+                    <div class="possible__dscr-border">
+                        <div class="possible__dscr-rectangle">
+                            <img src="img/data-theft.png" alt="">
+                        </div>
+                    </div>
+                    <div class="possible__dscr-title">Видеоконтроль и защита от краж</div>
+                    <div class="possible__dscr-text">Никакая охрана не обеспечит круглосуточный контроль витрин, складов, зон погрузки/разгрузки транспорта. Но система видеонаблюдения, если не заменит, то станет хорошим инструментом для службы безопасности.</div>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+    <section class="solution">
+        <div class="container">
+            <div class="solution__title">
+                Решения для <span>вашего Бизнеса</span>
+            </div>
+
+        </div>
+    </section>
+<script src="js/script.js"></script>
+    
+</body>
+</html>
